@@ -1,0 +1,12 @@
+/* TEAM */
+	Head Coder: Pat MacMannis	
+	Contact: pat.macmannis [at] gmail.com
+	Twitter: none
+	From: Pittsburgh, PA, USA
+	IDE: Notepad++
+
+/* SITE */
+	Last update: 2012/2/14
+	Language: English
+	Doctype: XHTML 1.0 Transitional
+	IDE: Notepad++

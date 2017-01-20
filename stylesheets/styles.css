@@ -1,0 +1,508 @@
+/** styles.css **/
+
+body
+{
+	background-color: #686868;
+}
+
+div.whole
+{
+	background-color: #FAFAFA;
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 3px solid black;
+	border-bottom: 2px solid black;
+}
+
+table.main
+{
+	border: 1px solid black;
+	width: 600px;
+}
+
+th.form_head
+{
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+td.input_title
+{
+	text-align: center;
+	vertical-align: middle;
+	width: 25px;
+}
+
+td.input_title_register
+{
+	text-align: center;
+	vertical-align: middle;
+	width: 45px;
+	white-space:nowrap;
+}
+
+td.input
+{
+	text-align: center;
+	vertical-align: middle;
+	width: 35px;
+}
+
+td.button
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+td.link
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+td.message_standard
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+td.message_alert
+{
+	text-align: center;
+	vertical-align: middle;
+	font-style: italic;
+	color: red;
+}
+
+a.link
+{
+	text-decoration: none;
+}
+
+a.link:hover
+{
+	text-decoration: none;
+	font-style: italic;
+}
+
+a.link_inline
+{
+	text-decoration: none;
+}
+
+a.link_inline:hover
+{
+	text-decoration: underline;
+}
+
+/** nation displays **/
+
+table.main_display
+{
+	border: 1px solid black;
+	width: 600px;
+	border-collapse: collapse;
+}
+
+table.nation_paragraph
+{
+	width: 600px;
+}
+
+th.nation_header
+{
+	background-color: #686868;
+	color: #FAFAFA;
+	font-size: 1.125em;
+	font-style: italic;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px dashed #000000;
+	border-collapse: collapse;
+}
+
+td.nation_row_title
+{
+	background-color: #EEEEEE;
+	font-weight: bold;
+	border-left: 1px solid #000000;
+	border-right: 1px dotted #000000;
+	border-bottom: 1px dotted #000000;
+	border-collapse: collapse;
+}
+
+td.nation_row_info
+{
+	border-left: 1px dotted #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px dotted #000000;
+	border-collapse: collapse;
+}
+
+/** search displays **/
+
+table.search_display
+{
+	border: 1px solid black;
+	width: 600px;
+	border-collapse: collapse;
+}
+
+th.search_result_header
+{
+	font-size: 1.125em;
+	font-style: italic;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px dashed #000000;
+	border-collapse: collapse;
+}
+
+td.search_result_title
+{
+	background-color: #EEEEEE;
+	font-weight: bold;
+	border-left: 1px solid #000000;
+	border-right: 1px dotted #000000;
+	border-bottom: 1px dotted #000000;
+	border-collapse: collapse;
+}
+
+td.search_result_info
+{
+	border-left: 1px dotted #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px dotted #000000;
+	border-collapse: collapse;
+}
+
+table.search_box
+{
+	width: inherit;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td.search_box
+{
+	width: inherit;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/** list displays **/
+
+table.list_central
+{
+	border: 1px solid black;
+	width: 600px;
+	border-collapse: collapse;
+}
+
+th.list_central_header
+{
+	background-color: #686868;
+	color: #FAFAFA;
+	font-size: 1.5em;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px dashed #000000;
+	border-collapse: collapse;
+}
+
+th.list_central_sub_header
+{
+	font-size: 1.125em;
+	font-style: italic;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px dashed #000000;
+	border-collapse: collapse;
+}
+
+td.list_central_nav
+{
+	text-align: center;
+	border-bottom: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+td.list_central_instructions
+{
+	border-bottom: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+td.list_central_row_title
+{
+	text-align: center;
+	background-color: #EEEEEE;
+	border-left: 1px dotted #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px dotted #000000;
+	border-collapse: collapse;
+}
+
+td.list_central_row_info
+{
+	border-left: 1px dotted #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px dotted #000000;
+	border-collapse: collapse;
+}
+
+/** pm read displays **/
+
+td.pm_title
+{
+	background-color: #EEEEEE;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+td.pm_info
+{
+	border-bottom: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+td.pm_body
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	border: 0px;
+	border-collapse: collapse;
+}
+
+/** alerts and messages **/
+
+td.alert_fubar
+{
+	color: red;
+	font-style: italic;
+	text-align: center;
+}
+
+/** side_menu_functions.php styles **/
+table.side_menu
+{
+	border: 1px solid black;
+	width: 200px;
+	background-color: #EEEEEE;
+	border-collapse: collapse;
+}
+
+th.side_menu_lable
+{
+	border: 1px solid black;
+	text-align: center;
+	font-size: 1.15em;
+	vertical-align: middle;
+	background-color: #686868;
+	color: #EEEEEE;
+	border-collapse: collapse;
+}
+
+td.side_menu_head
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	color: #686868;
+	border-collapse: collapse;
+}
+
+td.side_menu_field
+{
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FAFAFA;
+	border-collapse: collapse;
+}
+
+a.side_menu
+{
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	color: #686868;
+}
+
+a.side_menu:hover
+{
+	text-decoration: underline;
+	background-color: #FAFAFA;
+	color: #686868;
+	display: block;
+	font-weight: bold;
+
+}
+
+/** index.php styles **/
+table.index
+{
+	border: 1px solid black;
+	width: 600px;
+}
+
+td.index_message_section
+{
+	text-align: center;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+fieldset.index_fieldset
+{
+	width: inherit;
+	border: 3px double black;
+}
+
+legend.index_legend
+{
+	font-weight: bold;
+	font-size: 1.25em;
+	border: 1px solid black;
+	background-color: #686868;
+	color: #FAFAFA;
+}
+
+table.index_message_box
+{
+	width: 100%;
+	border: 3px double black;
+}
+
+table.index_message_box_mini
+{
+	width: auto;
+	position: relative;
+	left: 10px;
+	bottom: 15px;
+}
+
+table.index_message_box_mini_no_author
+{
+	width: auto;
+	position: relative;
+	left: 10px;
+	bottom: 15px;
+	margin-bottom: -10px;
+}
+
+td.index_message_spacer
+{
+	height: 10px;
+}
+
+td.index_message_spacer_no_th
+{
+	height: 7px;
+}
+
+td.index_box_center
+{
+	width: auto;
+	font-weight: bold;
+	font-size: 1.25em;
+	border: 1px solid black;
+	background-color: #686868;
+	color: #FAFAFA;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+td.index_box_shell
+{
+	width: inherit;
+	border: 3px double black;
+}
+
+p.index_message_author
+{
+	font-style: italic;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+
+p.index_message_body
+{
+	width: inherit;
+	margin: 0;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+}
+
+hr.index_message_hr
+{
+	width: 98%;
+}
+
+/** header.php styles **/
+div.header
+{
+	text-align: center;
+	width: inherit;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.header
+{
+	text-align: center;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td.header_info
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td.header_logo
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#link_img
+{
+	border: 0px solid red;
+	vertical-align: middle;
+}
+
+/** footer.php styles **/
+div.footer
+{
+	text-align: center;
+	width: inherit;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td.footer
+{
+	width: 900px;
+	text-align: center;
+}

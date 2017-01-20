@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /functions/
+Disallow: /crons/
+Disallow: /images/
+Disallow: /stylesheets/
+Disallow: /docs/
